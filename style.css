@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Noto+Sans+Symbols:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2d4480;
+  font-family: "Noto Sans Symbols", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 1.6875rem;
+  width: 18rem;
+  min-width: 18rem;
+  max-width: 18rem;
+  height: 29.3125rem;
+  max-height: 29.3125rem;
+  min-height: 29.3125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.6);
+  padding-top: 2.1875rem;
+}
+.title {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.features {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 2.8rem;
+  list-style-position: outside;
+  /* padding-top: 1.2rem;
+  padding-bottom: 1.2rem; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1.75rem;
+  padding-bottom: 27px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+}
+.feature p {
+  padding-left: 1.4375rem;
+  line-height: 2.0625rem;
+}
+.feature img {
+  width: 20px;
+  height: 20px;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 11.75rem;
+}
+
+/* .correct-features {
+  list-style-image: url(images/Check_green_icon\ 2.png);
+}
+.false-features {
+  list-style-image: url(images/image\ 3.png);
+} */
+
+.free {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  line-height: 2.25rem;
+  margin-top: 0.5rem;
+}
+
+.forever {
+  font-size: 2.25rem;
+  font-family: "Allan", sans-serif;
+  font-weight: 400;
+  color: #2d4480;
+  align-self: flex-end;
+  padding-right: 3.875rem;
+  margin-top: 0.5625rem;
+}
+
+.btn {
+  background-color: #ffbc0f;
+  color: #253868;
+  font-size: 1rem;
+  padding: 1.0625rem 2.125rem 1.125rem 34px;
+  border-radius: 2.125rem;
+  border: none;
+  position: relative;
+  top: 2.125rem;
+}
+
+.btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #253868;
+  font-weight: 600;
+  line-height: 2.0625rem;
+}
